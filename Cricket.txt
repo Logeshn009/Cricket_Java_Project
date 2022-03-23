@@ -1,0 +1,77 @@
+Cricket Management System
+Classes:
+1)	Admin
+2)	Player
+3)	Manager
+4)	Coach
+5)	Team
+6)	Scorecard
+7)	Stadium
+8)	Match
+9)	Schedule
+10)	User
+11)	Club
+
+Class Attributes:
+1)	Admin
+•	Admin_name
+•	Admin_id
+•	Admin_email
+•	Admin_Phone
+•	Admin_address
+
+2)	Player
+•	Player_name
+•	Player_id
+•	Player_Phone
+•	Player_age
+•	Player_Country
+•	Player_Address
+•	Player_Category
+•	Player_experience
+
+3)	Manager
+•	Manager_Name
+•	Manager_id
+•	Manager_email
+•	Manager_Phone
+•	Manager_age
+•	Manager_Country
+•	Manager_Address
+
+4)	Coach
+•	Coach_name
+•	Coach_id
+•	Coach_age
+•	Coach_email
+•	Coach_Phone
+•	Coach_address
+•	Coach_Country
+
+5)	Team
+•	Team_name
+•	Team_id
+•	Team_owner
+•	Team_email
+
+6)	Scorecard
+•	Total_score
+•	Wickets
+•	Runs
+•	Overs
+•	Player_status
+
+7)	Stadium
+•	Stadium_name
+•	Stadium_id
+•	Stadium_size
+•	Stadium_quantity
+•	Staduim_city
+
+8)	Match
+•	Match_time
+•	Match_day
+•	Match_type
+
+
+
