@@ -15,9 +15,9 @@ Lab 6 -> match.java
 
 Lab 7 -> Stadium.java
 
-Lab 8 -> 
+Lab 8 -> Scorecard.java ---- package --> Wickets.java
 
-Lab 9 ->
+Lab 9 -> Innings.java
 
 Lab 10 -> 
 
