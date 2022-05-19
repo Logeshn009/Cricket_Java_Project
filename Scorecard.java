@@ -1,8 +1,8 @@
+
 // Java program demonstrate execution of static blocks and variables
-
+// lab prgm 4
 import java.util.*;
-
-import javafx.animation.PathTransition;
+import wickets.*;
 
 class scoreboard {
 
@@ -138,6 +138,10 @@ class scoreboard {
 public class Scorecard {
 
     public static void main(String args[]) {
+        Wickets obj = new Wickets();
+        Wickets obj1 = new Wickets();
+        System.out.println("Package method called...");
+        obj.getreward(400, 500);
         scoreboard.scorecal();
     }
 
