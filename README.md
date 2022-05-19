@@ -19,5 +19,8 @@ Lab 8 -> Scorecard.java ---- package --> Wickets.java
 
 Lab 9 -> Innings.java
 
-Lab 10 -> 
+Lab 10 -> Innings.java
 
+Lab 11 -> players.java
+
+Lab 12 -> UserRegistration.java
