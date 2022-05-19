@@ -37,16 +37,18 @@ class putreward implements reward {
 
 }
 
-public class Innings extends putreward {
-    public static void main(String[] args) {
+class testthread extends Thread {
+    public static void run(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
         reward.MemberName();
-        System.out.print("\nNumber of wickets  : ");
-        int w = sc.nextInt();
+        // System.out.print("\nNumber of wickets : ");
+        // int w = sc.nextInt();
 
         try {
+            System.out.print("\nNumber of wickets  : ");
+            int w = sc.nextInt();
             System.out.print(
                     "Toal wickets taken \n     Enter\n  1-> 3 wicket haul \n  2-> 5 wicket haul \n  3-> 6 wicket haul\n");
             int r = sc.nextInt();
@@ -57,5 +59,11 @@ public class Innings extends putreward {
         } finally {
             System.out.println("Code executed");
         }
+
+    }
+
+    public static void main(String args[]) {
+        testthread t1 = new testthread();
+        t1.start();
     }
 }
